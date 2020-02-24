@@ -10,15 +10,12 @@ within the project<br/>
 *I run mysql within a docker container <br/>
 
 [Docker version 19.03.5]<br/>
-to create the containers, please run the following commands<br/>
-<br/>
-1. docker pull mysql:5.6
-<br/>
-2. docker run --name mysql-ymortest -e MYSQL_ROOT_PASSWORD=password -e MYSQL_DATABASE=ymortest -e MYSQL_USER=user -e MYSQL_PASSWORD=password -d mysql:5.6 
-<br/>
-3. docker build . -t spring-boot-ymortest  (to run within your project)
-<br/>
-4. docker run -p 8086:8086 --name spring-boot-ymortest --link mysql-ymortest:mysql -d spring-boot-ymortest
+to create the containers, please run the following commands<br/> 
+1. docker pull mysql:5.6<br/>
+  2. docker run --name mysql-ymortest -e MYSQL_ROOT_PASSWORD=password -e MYSQL_DATABASE=ymortest -e MYSQL_USER=user -e MYSQL_PASSWORD=password -d mysql:5.6 
+  <br/>
+ 3. docker build . -t spring-boot-ymortest  (to run within your project) <br/>
+  4. docker run -p 8086:8086 --name spring-boot-ymortest --link mysql-ymortest:mysql -d spring-boot-ymortest
 <br/>
 
 ## Mysql<br/>
