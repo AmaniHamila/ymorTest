@@ -1,13 +1,12 @@
 # ymorTest
 ## Requirements<br/>
 For building and running the application you need:<br/>
-<br/>
 * JDK 11
 * Maven 3
 <br/>
-within the project<br/>
-*I used Junit 5 <br/>
-*I run mysql within a docker container <br/>
+within the project: <br/>
+* I used Junit 5 <br/>
+* I run mysql within a docker container <br/>
 
 [Docker version 19.03.5]<br/>
 to create the containers, please run the following commands<br/> 
